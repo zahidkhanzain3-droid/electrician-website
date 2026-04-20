@@ -1,145 +1,148 @@
 <!DOCTYPE html>
-<html lang="ur" dir="rtl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zahid Professional Electrician - Riyadh</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Expert Electrician Riyadh | ⚡ 0596967223 | كهربائي الرياض</title>
     <style>
-        :root {
-            --primary-color: #1a2a6c;
-            --secondary-color: #f1c40f;
-            --text-light: #ffffff;
-            --bg-color: #f0f2f5;
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa; color: #333; }
+        
+        /* Professional Logo & Header Section */
+        .header { 
+            background: #1a252f; 
+            padding: 30px 20px; 
+            text-align: center; 
+            border-bottom: 4px solid #f1c40f;
         }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg-color);
-            color: #333;
+        
+        .logo-container {
+            display: inline-block;
+            border: 3px solid #f1c40f;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
-
-        header {
-            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
-            color: var(--text-light);
-            padding: 50px 20px;
-            text-align: center;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-        }
-
-        .container {
-            max-width: 700px;
-            margin: -30px auto 40px;
-            padding: 0 15px;
-        }
-
-        .card {
-            background: white;
-            border-radius: 20px;
-            padding: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            border-right: 5px solid var(--secondary-color);
-            padding-right: 15px;
-            font-size: 1.5rem;
-        }
-
-        .services-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .services-list li {
-            padding: 12px 0;
-            border-bottom: 1px solid #eee;
-            display: flex;
-            align-items: center;
-            font-size: 1.1rem;
-        }
-
-        .services-list li i {
-            color: #e67e22;
-            margin-left: 12px;
-        }
-
-        .contact-box {
-            text-align: center;
-            background: #fff;
-            border: 2px solid #25d366;
-        }
-
-        .btn-whatsapp {
-            display: inline-flex;
-            align-items: center;
-            background-color: #25d366;
-            color: white;
-            padding: 18px 30px;
-            text-decoration: none;
-            border-radius: 50px;
+        
+        .logo-text {
+            color: #f1c40f;
+            font-size: 28px;
             font-weight: bold;
-            font-size: 1.2rem;
-            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        
+        .logo-subtext {
+            color: white;
+            font-size: 14px;
+            display: block;
+            margin-top: -5px;
+        }
+
+        /* Hero Section with Professional Background */
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/1435213/pexels-photo-1435213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-size: cover; background-position: center; 
+            padding: 60px 20px;
+            color: white; text-align: center;
+        }
+
+        .container { max-width: 900px; margin: -40px auto 40px; background: white; padding: 35px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+        
+        .contact-card {
+            background: #f1c40f;
+            color: #1a252f;
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 22px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .box { border: 1px solid #eee; padding: 20px; border-radius: 10px; background: #fff; }
+        .arabic { direction: rtl; text-align: right; }
+        
+        /* Professional Call Button with your Number */
+        .btn-call { 
+            display: block; 
+            background: #27ae60; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-size: 24px; 
+            font-weight: bold; 
+            margin-top: 30px;
+            box-shadow: 0 5px 15px rgba(39, 174, 96, 0.4);
             transition: 0.3s;
         }
+        .btn-call:hover { background: #2ecc71; transform: scale(1.02); }
 
-        .btn-whatsapp:hover {
-            transform: scale(1.05);
-            background-color: #128c7e;
-        }
-
-        .location {
-            color: #666;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: block;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #888;
-            font-size: 0.9rem;
+        h1 { margin: 0; font-size: 36px; }
+        h2 { color: #f1c40f; margin-top: 10px; font-weight: normal; }
+        
+        @media (max-width: 768px) {
+            .services-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 26px; }
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-<header>
-    <h1>Zahid Professional Electrician</h1>
-    <p>ریاض میں بجلی کے ہر قسم کے کام کے لیے ماہر سروسز</p>
-</header>
-
-<div class="container">
-    <div class="card">
-        <span class="location"><i class="fas fa-map-marker-alt"></i> ریاض، سعودی عرب</span>
-        <h2>ہماری مہارت</h2>
-        <ul class="services-list">
-            <li><i class="fas fa-check-circle"></i> نئے گھروں کی مکمل الیکٹرک وائرنگ</li>
-            <li><i class="fas fa-check-circle"></i> شارٹ سرکٹ اور بجلی کے فالٹ کی درستگی</li>
-            <li><i class="fas fa-check-circle"></i> ڈی بی باکس، بریکر اور سوئچ بورڈ کا کام</li>
-            <li><i class="fas fa-check-circle"></i> فانوس، ایل ای ڈی لائٹس اور پنکھوں کی فٹنگ</li>
-            <li><i class="fas fa-check-circle"></i> اے سی (AC) کی وائرنگ اور مرمت</li>
-        </ul>
-    </div>
-
-    <div class="card contact-box">
-        <h3>رابطہ کریں</h3>
-        <p>فوری سروس اور بہترین کام کے لیے نیچے بٹن دبائیں</p>
-        <a href="https://wa.me/966596967223" class="btn-whatsapp">
-            <i class="fab fa-whatsapp" style="margin-left: 10px;"></i> واٹس ایپ پر رابطہ کریں
-        </a>
+<div class="header">
+    <div class="logo-container">
+        <div class="logo-text">⚡ RIYADH ELX</div>
+        <span class="logo-subtext">PROFESSIONAL ELECTRICIAN</span>
     </div>
 </div>
 
-<footer>
-    <p>&copy; 2026 Zahid Electrician Riyadh | All Rights Reserved</p>
-</footer>
+<div class="hero">
+    <h1>Quality Electrical Work</h1>
+    <h2>خدمات صيانة كهربائية متميزة</h2>
+</div>
+
+<div class="container">
+    <div class="contact-card">
+        <i class="fas fa-bolt"></i> Available 24/7 in All Riyadh | متاح 24 ساعة في الرياض
+    </div>
+
+    <div class="services-grid">
+        <div class="box">
+            <h3 style="color:#2c3e50; border-bottom: 2px solid #f1c40f; padding-bottom: 5px;">Our Expertise</h3>
+            <ul style="line-height: 1.8;">
+                <li>Emergency Short Circuit Repair</li>
+                <li>Full House Wiring & Testing</li>
+                <li>AC & Geyser Installation</li>
+                <li>Modern Lighting & Chandeliers</li>
+                <li>DB Box / Distribution Board</li>
+            </ul>
+        </div>
+        <div class="box arabic">
+            <h3 style="color:#2c3e50; border-bottom: 2px solid #f1c40f; padding-bottom: 5px;">خبراتنا</h3>
+            <ul style="line-height: 1.8;">
+                <li>كشف التماس الكهرباء وإصلاحه</li>
+                <li>تأسيس كهرباء الملاحق والفلل</li>
+                <li>تركيب المكيفات والسخانات</li>
+                <li>تركيب النجف والإضاءة الحديثة</li>
+                <li>صيانة وتغيير القواطع والطبلون</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="tel:+966596967223" class="btn-call">
+        <i class="fas fa-phone-alt"></i> Call Now: 0596967223
+    </a>
+    
+    <p style="text-align: center; margin-top: 15px; color: #7f8c8d;">Reliable Service | Quality Guaranteed | جودة وسرعة في التنفيذ</p>
+</div>
+
+<div style="text-align: center; padding: 20px; color: #95a5a6; font-size: 14px;">
+    &copy; 2026 Riyadh Professional Electrician Services
+</div>
 
 </body>
 </html>
