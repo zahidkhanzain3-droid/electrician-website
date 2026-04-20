@@ -1,10 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="ur" dir="rtl">
 <head>
-    <title>Electrician Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahid Professional Electrician - Riyadh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #1a2a6c;
+            --secondary-color: #f1c40f;
+            --text-light: #ffffff;
+            --bg-color: #f0f2f5;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: var(--text-light);
+            padding: 50px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        .container {
+            max-width: 700px;
+            margin: -30px auto 40px;
+            padding: 0 15px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-right: 5px solid var(--secondary-color);
+            padding-right: 15px;
+            font-size: 1.5rem;
+        }
+
+        .services-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+        }
+
+        .services-list li i {
+            color: #e67e22;
+            margin-left: 12px;
+        }
+
+        .contact-box {
+            text-align: center;
+            background: #fff;
+            border: 2px solid #25d366;
+        }
+
+        .btn-whatsapp {
+            display: inline-flex;
+            align-items: center;
+            background-color: #25d366;
+            color: white;
+            padding: 18px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.05);
+            background-color: #128c7e;
+        }
+
+        .location {
+            color: #666;
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>Ye meri pehli coding ki koshish hai!</p>
+
+<header>
+    <h1>Zahid Professional Electrician</h1>
+    <p>ریاض میں بجلی کے ہر قسم کے کام کے لیے ماہر سروسز</p>
+</header>
+
+<div class="container">
+    <div class="card">
+        <span class="location"><i class="fas fa-map-marker-alt"></i> ریاض، سعودی عرب</span>
+        <h2>ہماری مہارت</h2>
+        <ul class="services-list">
+            <li><i class="fas fa-check-circle"></i> نئے گھروں کی مکمل الیکٹرک وائرنگ</li>
+            <li><i class="fas fa-check-circle"></i> شارٹ سرکٹ اور بجلی کے فالٹ کی درستگی</li>
+            <li><i class="fas fa-check-circle"></i> ڈی بی باکس، بریکر اور سوئچ بورڈ کا کام</li>
+            <li><i class="fas fa-check-circle"></i> فانوس، ایل ای ڈی لائٹس اور پنکھوں کی فٹنگ</li>
+            <li><i class="fas fa-check-circle"></i> اے سی (AC) کی وائرنگ اور مرمت</li>
+        </ul>
+    </div>
+
+    <div class="card contact-box">
+        <h3>رابطہ کریں</h3>
+        <p>فوری سروس اور بہترین کام کے لیے نیچے بٹن دبائیں</p>
+        <a href="https://wa.me/966596967223" class="btn-whatsapp">
+            <i class="fab fa-whatsapp" style="margin-left: 10px;"></i> واٹس ایپ پر رابطہ کریں
+        </a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Zahid Electrician Riyadh | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
